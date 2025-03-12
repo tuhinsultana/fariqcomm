@@ -9,54 +9,77 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             text-align: center;
+            color: #333;
         }
         header {
             background-color: #007bff;
             color: white;
-            padding: 20px;
-            font-size: 24px;
+            padding: 40px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?business,marketing') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
         }
         .container {
-            max-width: 800px;
+            max-width: 1100px;
             margin: 50px auto;
             padding: 20px;
             background: white;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             border-radius: 8px;
+            text-align: left;
         }
         .btn {
             display: inline-block;
             margin-top: 20px;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background-color: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 18px;
         }
-        #services, #contact {
+        .services, .contact {
             margin-top: 50px;
-            padding: 20px;
+            padding: 40px;
             background: white;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             border-radius: 8px;
-            max-width: 800px;
+            max-width: 1100px;
             margin-left: auto;
             margin-right: auto;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
     <header>Fariq Comm</header>
+    
+    <div class="hero">We Help Brands Grow Digitally</div>
+    
     <div class="container">
         <h1>Welcome to Fariq Comm</h1>
         <p>Your trusted partner in brand growth, marketing, and digital transformation.</p>
-        <p>We provide expert solutions in social media marketing, branding, and strategy.</p>
         <a href="#contact" class="btn">Get in Touch</a>
     </div>
 
-    <div id="services">
+    <div class="services">
         <h2>Our Services</h2>
         <p>✔ Social Media Marketing</p>
         <p>✔ Branding & Identity</p>
@@ -64,11 +87,13 @@
         <p>✔ Web Design & Development</p>
     </div>
 
-    <div id="contact">
+    <div class="contact" id="contact">
         <h2>Contact Us</h2>
         <p>Email: contact@fariqcomm.com</p>
         <p>Phone: +880-1890323059</p>
         <p>Address: Dhaka, Bangladesh</p>
     </div>
+
+    <div class="footer">&copy; 2025 Fariq Comm. All rights reserved.</div>
 </body>
 </html>
