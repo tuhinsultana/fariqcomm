@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fariq Comm - Your Digital Growth Partner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #services, #contact {
+            margin-top: 50px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>Fariq Comm</header>
+    <div class="container">
+        <h1>Welcome to Fariq Comm</h1>
+        <p>Your trusted partner in brand growth, marketing, and digital transformation.</p>
+        <p>We provide expert solutions in social media marketing, branding, and strategy.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+
+    <div id="services">
+        <h2>Our Services</h2>
+        <p>✔ Social Media Marketing</p>
+        <p>✔ Branding & Identity</p>
+        <p>✔ Content Strategy</p>
+        <p>✔ Web Design & Development</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@fariqcomm.com</p>
+        <p>Phone: +880-1890323059</p>
+        <p>Address: Dhaka, Bangladesh</p>
+    </div>
+</body>
+</html>
